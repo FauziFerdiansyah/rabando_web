@@ -438,7 +438,7 @@ img{
 }
 
 .home__description{
-  margin-bottom: var(--mb-2-5);
+  margin-bottom: var(--mb-1-5);
 }
 /*=============== BUTTONS ===============*/
 .button{
@@ -1108,7 +1108,7 @@ footer .footer__title, footer .footer__logo {
   }
 
   .home__img{
-    width: 180px;
+    width: 100%;
   }
   .home__title{
     font-size: var(--h1-font-size);
@@ -1133,7 +1133,7 @@ footer .footer__title, footer .footer__logo {
 }
 @media screen and (max-width: 576px){
   .home__title {
-    font-size: 8rem;
+    font-size: 4rem;
     line-height: 96%;
   }
   .home__description {
@@ -1186,7 +1186,7 @@ footer .footer__title, footer .footer__logo {
     grid-template-columns: repeat(2, 1fr);
   }
   .home__img{
-    width: 280px;
+    width: 100%;
     order: 1;
   }
   .home__social{
