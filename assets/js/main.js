@@ -91,13 +91,3 @@ sr.reveal(`.home__social`, {delay: 600})
 sr.reveal(`.about__img, .contact__box`,{origin: 'left'})
 sr.reveal(`.about__data, .contact__form`,{origin: 'right'})
 sr.reveal(`.steps__card, .product__card, .questions__group, .footer`,{interval: 100})
-
-function forResTextHomeVid(){
-    let elm_home_vid = document.querySelector('.home__text-video');
-    document.getElementById('video-bg-text').style.height = (elm_home_vid.offsetHeight - 10) + 'px';
-    document.querySelector('.home__text-wraper').style.maxHeight = (elm_home_vid.offsetHeight - 10) + 'px';
-}
-forResTextHomeVid();
-window.addEventListener('resize', function(event) {
-    forResTextHomeVid();
-}, true);

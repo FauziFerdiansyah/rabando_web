@@ -284,6 +284,8 @@ img{
   color: var(--title-color);
   font-weight: var(--font-semi-bold);
   transition: .3s;
+  width: 100%;
+  display: block;
 }
 
 .nav__link:hover{
@@ -1164,7 +1166,7 @@ footer .footer__title, footer .footer__logo {
     column-gap: 3rem;
   }
   .nav__list{
-    flex-direction: row;
+    flex-direction: column !important;
     column-gap: 3rem;
   }
   .nav__menu{
