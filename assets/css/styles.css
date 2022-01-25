@@ -1166,7 +1166,7 @@ footer .footer__title, footer .footer__logo {
     column-gap: 3rem;
   }
   .nav__list{
-    flex-direction: column !important;
+    flex-direction: row;
     column-gap: 3rem;
   }
   .nav__menu{
