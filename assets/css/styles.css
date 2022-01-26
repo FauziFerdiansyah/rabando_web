@@ -168,6 +168,13 @@ img{
   overflow: hidden; /*For animation*/
   background-color: #e5e5e5;
 }
+.page__header {
+  margin-top: 5rem;
+  padding-top: 3rem;
+}
+.page__header .section__title {
+  font-size: var(--biggest-font-size);
+}
 
 /*=============== HEADER ===============*/
 .header{
@@ -1244,7 +1251,7 @@ footer .footer__title, footer .footer__logo {
   }
 
   .home{
-    padding: 7rem 0 5rem;
+    padding: 8rem 0 6rem;
   }
   .home__img{
     width: 100%;
