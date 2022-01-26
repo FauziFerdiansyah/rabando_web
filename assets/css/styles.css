@@ -425,7 +425,7 @@ img{
 }
 
 .home__content-img {
-  width: 820px;
+  width: 830px;
 }
 
 .home__img{
@@ -877,31 +877,31 @@ section.block_grid {
   background-color: rgb(255, 250, 55); height: auto;
 }
 .col-3 {
-  background-color: rgb(30, 205, 30); height: 556px;
+  background-color: #DD20CC; height: 556px;
 }
 .col-3-1 {
   height: auto;
 }
 .col-3-2 {
-  background-color: var(--title-color); height: auto;
+  background-color: var(--first-color); height: auto;
 }
 .col-4 {
-  background-color: rgb(85, 255, 245); height: 556px;
+  background-color: var(--first-color); height: 556px;
 }
 .col-4-1 {
   height: auto;
 }
 .col-4-2 {
-  background-color: rgb(250, 120, 35); height: auto;
+  background-color: #FF7E5F; height: auto;
 }
 .col-5 {
-  background-color: rgb(85, 255, 245); height: auto; margin-top: -576px;
+  background-color: #F9F871; height: auto; margin-top: -576px;
 }
 .col-5-1 {
   height: 333.6px;
 }
 .col-5-2 {
-  background-color: var(--first-color); height: 798.4px;
+  background-color: #FFC04C; height: 798.4px;
 }
 /*=============== CTA ===============*/
 section.cta {
