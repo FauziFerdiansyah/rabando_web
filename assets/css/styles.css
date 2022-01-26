@@ -16,7 +16,7 @@
 
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
-  --hue: 280;
+  --hue: 210;
   --first-color: hsl(var(--hue), 100%, 49%);
   --first-color-alt: hsl(var(--hue), 100%, 32%);
   --first-color-light: hsl(var(--hue), 100%, 66%);
@@ -177,6 +177,7 @@ img{
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
 }
 
 /*=============== NAV ===============*/
