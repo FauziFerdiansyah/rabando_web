@@ -16,7 +16,7 @@
 
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
-  --hue: 210;
+  --hue: 221;
   --first-color: hsl(var(--hue), 100%, 49%);
   --first-color-alt: hsl(var(--hue), 100%, 32%);
   --first-color-light: hsl(var(--hue), 100%, 66%);
@@ -421,7 +421,7 @@ img{
   position: relative;
   row-gap: 2rem;
   column-gap: 2rem;
-  max-width: 1300px;
+  max-width: 1440px;
 }
 
 .home__content-img {
