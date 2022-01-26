@@ -10,21 +10,6 @@
   font-family: "Disaster_regular";
   src: url("../fonts/DisasterCondensed-regular-webfont.ttf");
 }
-@font-face {
-    font-family: DMSans;
-    src: url(../fonts/DMSans-Regular.ttf);
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: DMSans;
-    src: url(../fonts/DMSans-Bold.ttf);
-    font-weight: 700;
-    font-style: normal;
-    font-display: swap;
-}
 /*=============== VARIABLES CSS ===============*/
 :root {
   --header-height: 3.5rem; /*56px*/
@@ -46,7 +31,7 @@
 
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
-  --body-font: 'DMSans', sans-serif;
+  --body-font: 'Poppins', sans-serif;
   --content-regular-font: 'Disaster_regular', sans-serif;
   --content-font: 'Disaster', sans-serif;
   --biggest-font-size: 2.4rem;
@@ -220,6 +205,10 @@ img{
   align-items: center;
   column-gap: .5rem;
   transition: .3s;
+}
+
+.nav__logo img {
+  height: 30px;
 }
 
 .nav__logo-icon{
@@ -497,7 +486,7 @@ img{
 
 /*=============== ABOUT ===============*/
 .about.section {
-  padding: 1rem;
+  padding: 1rem 1rem 3rem;
   margin-top: var(--mb-2-5);
 }
 .about__container{
