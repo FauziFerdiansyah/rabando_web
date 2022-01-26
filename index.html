@@ -10,6 +10,9 @@
         <!--=============== REMIX ICONS ===============-->
         <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
 
+        <!--=============== SWIPER ===============-->
+        <link href="https://unpkg.com/swiper@7.3.1/swiper-bundle.min.css" rel="stylesheet">
+
         <!--=============== CSS ===============-->
         <link rel="stylesheet" href="assets/css/styles.css">
         <meta name="author" content="rabando">
@@ -34,6 +37,9 @@
                         </li>
                         <li class="nav__item">
                             <a href="#products" class="nav__link">Company</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#products" class="nav__link">ID</a>
                         </li>
                     </ul>
 
@@ -94,6 +100,34 @@
                 </div>
             </section>
 
+            <section class="testimony section container" id="testimony">
+
+                    <div class="testimony__bg">
+                        <div class="swiper-wrapper">
+                            <div class="testimony__container grid swiper-slide">
+                                <div class="testimony__card" data-sr-id="11" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 1s cubic-bezier(0.5, 0, 0, 1) 0.2s, transform 1s cubic-bezier(0.5, 0, 0, 1) 0.2s;">
+                                    <img src="https://i.pravatar.cc/150?img=68" class="testimony__photo">
+                                    <div class="testimony__card-description">
+                                        <div class="testimony__card-name">John Doe</div>
+                                        Lorem ipsum dolor consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Ut enim ad minim veniam.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimony__container grid swiper-slide">
+                                <div class="testimony__card" data-sr-id="11" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 1s cubic-bezier(0.5, 0, 0, 1) 0.2s, transform 1s cubic-bezier(0.5, 0, 0, 1) 0.2s;">
+                                    <img src="https://i.pravatar.cc/150?img=5" class="testimony__photo">
+                                    <div class="testimony__card-description">
+                                        <div class="testimony__card-name">Jane Doe</div>
+                                        Lorem ipsum dolor consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Ut enim ad minim veniam.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </section>
+
             <!--==================== BLOCK ====================-->
             <section class="block_grid section container" id="block_grid">
                 <div class="block_grid__container flex">
@@ -127,7 +161,7 @@
                 </div>
             </section>
 
-            <!--==================== STEPS ====================-->
+            <!--==================== testimony ====================-->
             <section class="cta section container">
                 <div class="cta__bg">
                     <h2 class="section__title-center">
@@ -221,6 +255,9 @@
 
         <!--=============== SCROLL REVEAL ===============-->
         <script src="assets/js/scrollreveal.min.js"></script>
+
+        <!--=============== SWIPER ===============-->
+        <script src="https://unpkg.com/swiper@7.3.1/swiper-bundle.min.js"></script>
         
         <!--=============== MAIN JS ===============-->
         <script src="assets/js/main.js"></script>

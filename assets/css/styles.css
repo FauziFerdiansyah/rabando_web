@@ -487,7 +487,7 @@ img{
 
 /*=============== ABOUT ===============*/
 .about.section {
-  padding: 1rem 1rem 3rem;
+  padding: 1rem 1rem 2rem;
   margin-top: var(--mb-2-5);
 }
 .about__container{
@@ -528,55 +528,58 @@ img{
   margin-top: .15rem;
 }
 
-/*=============== STEPS ===============*/
-.steps.section {
-  padding-top: var(--mb-2-5);
+/*=============== TESTIMONY ===============*/
+.testimony.section {
+  padding-top: var(--mb-0-5);
+  overflow: hidden;
+  position: relative;
 }
 
-.steps__bg{
+.testimony__bg{
   padding: 0.5rem 2rem 2rem;
   border-radius: 1rem;
 }
 
-.steps__container{
+.testimony__photo {
+  border-radius: 50%;
+  width: 150px;
+}
+
+.testimony__container{
   gap: 2rem;
   padding-top: 1rem;
 }
 
-.steps__title{
-  color: var(--title-color);
-}
-
-.steps__card{
+.testimony__card{
   background-color: var(--container-color);
-  padding: 2rem 0.5rem 2rem 0.5rem;
+  padding: 2rem 2.5rem 2rem 2.5rem;
   border-radius: 1rem;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
 }
 
-.steps__card-number{
-  display: inline-block;
-  background-color: var(--first-color-alt);
-  color: #FFF;
-  padding: .5rem .75rem;
-  border-radius: .25rem;
-  font-size: var(--h2-font-size);
-  margin-bottom: var(--mb-1-5);
-  transition: .3s;
-}
-
-.steps__card-title{
-  font-size: var(--h1-font-size);
-  margin-bottom: var(--mb-0-5);
-}
-
-.steps__card-description{
+.testimony__card-description{
   font-size: var(--normal-font-size);
+  align-items: center;
+  display: grid;
+  align-content: center;
 }
 
-.steps__card:hover .steps__card-number{
-  transform: translateY(-.25rem);
+.testimony__card-name {
+  font-size: var();
+  font-weight: var(--font-semi-bold);
+  color: var(--first-color-alt);
+  margin-bottom: var(--mb-0-5);
+  font-size: var(--h3-font-size);
 }
 
+.swiper-pagination {
+  bottom: 30px !important;
+}
+.swiper-pagination-bullet-active {
+  background: var(--first-color) !important;
+}
 /*=============== QUESTIONS ===============*/
 .questions{
   background-color: var(--first-color-lighten);
@@ -1105,10 +1108,10 @@ footer .footer__title, footer .footer__logo {
     font-size: var(--h1-font-size);
   }
 
-  .steps__bg{
-    padding: 0.5rem 1rem;
+  .testimony__bg{
+    padding: 0.5rem 0;
   }
-  .steps__card{
+  .testimony__card{
     padding: 1.5rem;
   }
 
@@ -1121,6 +1124,9 @@ footer .footer__title, footer .footer__logo {
   .block_grid__container .grid-block__item p {
     margin-top: 0px !important;
   }
+  .testimony__photo {
+    display: none;
+  }
 }
 @media screen and (max-width: 576px){
   .home__title {
@@ -1131,10 +1137,20 @@ footer .footer__title, footer .footer__logo {
     font-size: var(--mb-1-5);
   }
 }
+@media screen and (max-width: 600px) {
+  .testimony__photo {
+    height: 60px;
+    width: 60px;
+  }
+  .testimony__bg {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
 /* For medium devices */
 @media screen and (min-width: 576px){
-  .steps__container{
-    grid-template-columns: repeat(2, 1fr);
+  .testimony__container{
+    grid-template-columns: repeat(1, 1fr);
   }
 
   .section__description{
@@ -1241,13 +1257,13 @@ footer .footer__title, footer .footer__logo {
     top: -2rem;
   }
 
-  .steps__container{
-    grid-template-columns: repeat(3, 1fr);
+  .testimony__container{
+    grid-template-columns: repeat(1, 1fr);
   }
-  .steps__bg{
-    padding: 0.5rem 2.5rem;
+  .testimony__bg{
+    padding: 0.5rem 0;
   }
-  .steps__card-title{
+  .testimony__card-title{
     font-size: var(--h1-font-size);
   }
 

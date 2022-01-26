@@ -59,3 +59,17 @@ sr.reveal(`.home__social`, {delay: 600})
 sr.reveal(`.about__img, .contact__box`,{origin: 'left'})
 sr.reveal(`.about__data, .contact__form`,{origin: 'right'})
 sr.reveal(`.steps__card, .product__card, .questions__group, .footer`,{interval: 100})
+
+
+var swiper = new Swiper(".testimony__bg", {
+    loop: 'true',
+    slidesPerView: "auto",
+    autoplay: {
+        delay: 4000,
+        disableOnInteraction: false,
+    },
+    pagination: {
+        el: ".swiper-pagination",
+        dynamicBullets: true,
+    },
+});
