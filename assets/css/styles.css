@@ -724,7 +724,7 @@ img{
 
   color: var(--text-color);
 
-  
+
   border: none;
   outline: none;
   z-index: 1;
@@ -772,7 +772,7 @@ section.block_grid {
   flex-wrap: nowrap;
   box-sizing: border-box;
 }
-.grid-block__item--first-column, 
+.grid-block__item--first-column,
 .grid-block__item--second-column {
   display: flex;
   align-items: center;
