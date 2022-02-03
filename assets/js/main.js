@@ -52,8 +52,8 @@ const sr = ScrollReveal({
     // reset: true
 })
 
-sr.reveal(`.home__data`)
-sr.reveal(`.steps`, {delay: 100})
+sr.reveal(`.home__data, .page__header`)
+sr.reveal(`.steps, .product__page-brands-block, .about__page, .main__header-page, .customer__page`, {delay: 100})
 sr.reveal(`.home__img, .grid-block__item, .cta`, {delay: 500})
 sr.reveal(`.home__social`, {delay: 600})
 sr.reveal(`.about__img, .contact__box`,{origin: 'left'})
