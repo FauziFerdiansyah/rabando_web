@@ -173,7 +173,7 @@ img{
   overflow: hidden;
 }
 .page__header {
-  margin-top: 5rem;
+  margin-top: 6rem;
   padding-top: 3rem;
 }
 .page__header .section__title {
@@ -511,28 +511,35 @@ img{
   background: transparent;
 }
 
+.button--block {
+  background-color: var(--first-color);
+  color: white;
+  padding: 5px 10px;
+  font-size: var(--normal-font-size);
+  transition: .3s background-color;
+}
+
+.button--block:hover {
+  background-color: var(--first-color-light);
+}
 /*============== COMPANY ===============*/
 .about__page {
   margin-bottom: var(--mb-2-5);
+}
+.about__page .about__page-desc {
+  text-align: justify;
+  padding-bottom: 3rem;
 }
 /*============== CUSTOMER ===============*/
 .customer__page {
   margin-bottom: var(--mb-2-5);
 }
-.customer__page {
-  
-}
-.customer__page-brands {
-  gap: 2rem;
-  margin-top: 5rem;
-  grid-template-columns: repeat(3, 1fr);
-}
-.customer__page-brands-block {
-  pointer-events: none;
-  border: 1px solid #f9f9f9;
-  box-shadow: 0 0 10px -3px rgba(0, 0, 0, 0.1);
-  padding: 1rem;
-  border-radius: 15px;
+.customer__page-desc {
+  display: block;
+  text-align: center;
+  padding: 5rem 0 6rem;
+  max-width: 75%;
+  margin: 0 auto;
 }
 .main__header-page {
   background-color: var(--section-header-color-1);
@@ -592,6 +599,9 @@ img{
     margin-top: 0px;
     height: 450px;
   }
+  .customer__page-desc {
+    max-width: 100%;
+  }
 }
 @media screen and (max-width: 570px) {
   .main__header-page {
@@ -627,6 +637,43 @@ img{
   .section__img-large {
     position: absolute;
     bottom: 0;
+  }
+}
+/*=============== PRODUCT ===============*/
+.product__page {
+  margin-top: 10rem;
+  margin-bottom: var(--mb-2-5);
+}
+.product__page-brands {
+  gap: 2rem;
+  margin-top: 5rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+.product__page-brands-block {
+  pointer-events: none;
+  border: 1px solid #f9f9f9;
+  box-shadow: 0 0 10px -3px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  border-radius: 15px;
+}
+@media screen and (max-width: 570px) {
+  .product__page-brands {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 450px) {
+  .product__page-brands {
+    margin-top: 3rem;
+  }
+}
+@media screen and (max-width: 570px) {
+  .product__page-brands {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 450px) {
+  .product__page-brands {
+    margin-top: 3rem;
   }
 }
 /*=============== ABOUT ===============*/
