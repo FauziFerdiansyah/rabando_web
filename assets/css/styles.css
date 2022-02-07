@@ -1535,11 +1535,17 @@ footer .footer__title, footer .footer__logo {
     margin-top: 1rem;
   }
 }
+@media screen and (max-width: 9920px) {
+  .container {
+    margin-left: var(--mb-2);
+    margin-right: var(--mb-2);
+  }
+}
 /* For large devices */
 @media screen and (min-width: 1100px){
   .container{
-    margin-left: var(--mb-2);
-    margin-right: var(--mb-2);
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .section{
