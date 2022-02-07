@@ -229,6 +229,7 @@ img{
 
 .nav__logo img {
   height: 30px;
+  width: 118px;
 }
 
 .nav__logo-icon{
@@ -1318,6 +1319,7 @@ footer .footer__title, footer .footer__logo {
 
 .footer__logo-img {
   height: 30px;
+  width: 118px;
   filter: brightness(0) invert(1);
 }
 /*=============== SCROLL UP ===============*/
