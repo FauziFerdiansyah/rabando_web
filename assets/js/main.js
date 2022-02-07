@@ -53,8 +53,8 @@ const sr = ScrollReveal({
 })
 
 sr.reveal(`.home__data, .page__header`)
-sr.reveal(`.steps, .product__page-brands-block, .about__page, .main__header-page, .customer__page`, {delay: 100})
-sr.reveal(`.home__img, .grid-block__item, .cta`, {delay: 500})
+sr.reveal(`.steps, .product__page-brands-block, .about__page, .customer__page`, {delay: 100})
+sr.reveal(`.home__img, .grid-block__item, .cta, .main__header-page`, {delay: 500})
 sr.reveal(`.home__social`, {delay: 600})
 sr.reveal(`.about__img, .contact__box`,{origin: 'left'})
 sr.reveal(`.about__data, .contact__form`,{origin: 'right'})
@@ -65,7 +65,7 @@ var swiper = new Swiper(".testimony__bg", {
     loop: 'true',
     slidesPerView: "auto",
     autoplay: {
-        delay: 4000,
+        delay: 400000000,
         disableOnInteraction: false,
     },
     pagination: {
@@ -81,8 +81,7 @@ var swiper = new Swiper(".testimony__bg", {
         size  = size || 60;
 
         var colours = [
-                "#1abc9c", "#2ecc71", "#3498db", "#9b59b6", "#34495e", "#16a085", "#27ae60", "#2980b9", "#8e44ad", "#004ffa",
-                "#f1c40f", "#e67e22", "#e74c3c", "#ecf0f1", "#95a5a6", "#f39c12", "#d35400", "#c0392b", "#bdc3c7", "#7f8c8d"
+                "#EEE8A9", "#33DBCC", "#83F9BE", "#00C1FF", "#2e6df6"
             ],
 
             nameSplit = String(name).toUpperCase().split(' '),
