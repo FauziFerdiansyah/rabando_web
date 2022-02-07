@@ -65,7 +65,7 @@ var swiper = new Swiper(".testimony__bg", {
     loop: 'true',
     slidesPerView: "auto",
     autoplay: {
-        delay: 400000000,
+        delay: 5000,
         disableOnInteraction: false,
     },
     pagination: {
