@@ -62,10 +62,10 @@ sr.reveal(`.steps__card, .product__card, .questions__group, .footer`,{interval: 
 
 
 var swiper = new Swiper(".testimony__bg", {
-    loop: 'true',
+    // loop: 'true',
     slidesPerView: "auto",
     autoplay: {
-        delay: 5000,
+        delay: 50000000,
         disableOnInteraction: false,
     },
     pagination: {
